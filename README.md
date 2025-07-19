@@ -99,14 +99,6 @@ uvicorn app.main:app --reload
 
 The API will be available at `http://localhost:8000`.
 
-#### With Docker Compose
-
-```bash
-docker-compose up --build
-```
-
-This spins up services: API, PostgreSQL, Redis, Celery worker.
-
 ---
 
 ## 📚 API Documentation
